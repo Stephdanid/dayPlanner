@@ -3,7 +3,13 @@ let showCalendar = document.querySelector("#currentDay");
 dayjs().format()
 console.log(dayjs());
 showCalendar.textContent = dayjs()
-    // if (conditonal based on time in library) {
+
+let savebtn = document.querySelector[0](".saveBtn");
+
+savebtn.addEventListener("submit", function(event) {
+        console.log("I have been clicked")
+    })
+    // if (conditional based on time in library) {
     //     code to run change to past, present.future in styling
     // }
     // setattrbute to past
